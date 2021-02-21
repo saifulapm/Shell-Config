@@ -12,7 +12,7 @@
 # Usage: server [port]
 #
 function serve() {
-  python -m http.server "${1:-8080}"
+  python3 -m http.server "${1:-8080}"
 }
 
 # Recursively find and replace text within files in a directory
