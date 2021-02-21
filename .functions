@@ -15,6 +15,9 @@ function serve() {
   python3 -m http.server "${1:-8080}"
 }
 
+function pserve() {
+  php -S localhost:9000
+}
 # Recursively find and replace text within files in a directory
 #
 # Params:
