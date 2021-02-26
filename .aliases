@@ -6,6 +6,9 @@ alias lh='ls -lh'
 alias lR='ls -lR'
 alias l='ls -lh'
 
+# Configs
+alias co='cd ~/.config/nvim/'
+
 # bat
 alias cat=bat
 
@@ -13,6 +16,7 @@ alias cat=bat
 alias vim=nvim
 alias vi=nvim
 alias mvim=nvim
+alias n=nvim
 
 # git
 alias ga='git add'
@@ -38,6 +42,7 @@ alias gcap='git commit --amend --no-edit; git push -f'
 
 # rm 进 trash
 alias rm='trash -r'
+alias rm -rf='trash -r'
 
 # fasd
 alias v='f -e vim' # quick opening files with vim
