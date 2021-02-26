@@ -42,7 +42,6 @@ alias gcap='git commit --amend --no-edit; git push -f'
 
 # rm 进 trash
 alias rm='trash -r'
-alias rm -rf='trash -r'
 
 # fasd
 alias v='f -e vim' # quick opening files with vim
